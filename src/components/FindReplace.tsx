@@ -934,7 +934,7 @@ export default function FindReplace() {
                                       variant="default"
                                       className="bg-green-600 text-white font-bold rounded-full px-3"
                                     >
-                                      {result.changes?.length || 0} changes
+                                      {updatedEntries.length || 0} changes
                                     </Badge>
                                   </div>
                                 ))}
