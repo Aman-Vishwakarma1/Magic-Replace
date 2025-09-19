@@ -86,7 +86,7 @@ interface ApplyResult {
   results: ApplyResultDetail[];
 }
 
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://magic-replace-backend.vercel.app";
 
 const Stepper = ({
   currentStep,
